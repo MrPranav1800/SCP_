@@ -1,9 +1,13 @@
-A =int(input("enter a number: "))
-if A not an int:
+
+try :
+  A =int(input("enter a number: "))
+exception:
   print("type numbers only")
-B = int(input("enter another number: "))
-if B is not an int:
+try:
+  B = int(input("enter another number: "))
+exception:
   print("type numbers only")
-C=A+B
+
+  C=A+B
 
 print (C)
