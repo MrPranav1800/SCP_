@@ -2,11 +2,11 @@
 try :
   A =int(input("enter a number: "))
 exception:
-  print("type numbers only")
+  print(A)
 try:
   B = int(input("enter another number: "))
 exception:
-  print("type numbers only")
+  print(B)
 
   C=A+B
 
